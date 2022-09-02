@@ -1,0 +1,14 @@
+base/LogCapture.class
+core/Hooks.class
+core/Config.class
+core/DriverFactory.class
+pages/web/mainPage/WebMainPO.class
+base/GCP.class
+pages/web/mainPage/WebMainPageAbstract.class
+TestRunner.class
+pages/web/mainPage/WebMainPageLogic.class
+stepdefs/GCP/MyStepdefs.class
+base/WebPageObjectBase.class
+stepdefs/web/WebMainStepDefs.class
+utils/PropertiesLoader.class
+base/LogCompare.class

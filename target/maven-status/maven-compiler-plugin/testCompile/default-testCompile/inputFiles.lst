@@ -1,0 +1,14 @@
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/pages/web/mainPage/WebMainPO.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/pages/web/mainPage/WebMainPageLogic.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/base/WebPageObjectBase.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/TestRunner.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/stepdefs/web/WebMainStepDefs.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/pages/web/mainPage/WebMainPageAbstract.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/base/GCP.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/utils/PropertiesLoader.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/core/DriverFactory.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/core/Hooks.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/stepdefs/GCP/MyStepdefs.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/base/LogCapture.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/base/LogCompare.java
+/Users/Shaher/SMAPI_CICD/Web/SMAPI_Test_web_Automation/src/test/java/core/Config.java
