@@ -189,5 +189,5 @@ Feature: Check Login Page
     Then Validate WEB Element ["x-vf-trace-source" "js:com.vodafone.lib.sec.smapiweb"] for event ["Page" "soft-navigation (asd)"]
     Then Validate WEB Element ["x-vf-trace-source-version" "smapi-web-test"] for event ["Page" "soft-navigation (asd)"]
 #    Then Validate WEB Element ["x-vf-custom-authorization-id" "smapi-web-test"] for event ["Page" "soft-navigation (asd)"]
-    Then Validate WEB Element ["x-vf-custom-test1" "teszt1customjson"] for event ["Page" "soft-navigation (asd)"]
-    Then Validate WEB Element ["x-vf-custom-test2" "teszt2customjson"] for event ["Page" "soft-navigation (asd)"]
+#    Then Validate WEB Element ["x-vf-custom-test1" "teszt1customjson"] for event ["Page" "soft-navigation (asd)"]
+#    Then Validate WEB Element ["x-vf-custom-test2" "teszt2customjson"] for event ["Page" "soft-navigation (asd)"]

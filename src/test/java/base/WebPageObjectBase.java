@@ -23,7 +23,7 @@ public abstract class WebPageObjectBase {
     }
 
     public JsonObject[] captureAllWebEvents() {
-        try { Thread.sleep(10000); } catch (Exception ign) {}
+        try { Thread.sleep(5000); } catch (Exception ign) {}
         JsonObject[] jsonList = logCapture.captureWebEvents(driver);
         return jsonList;
     }

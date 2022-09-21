@@ -2,7 +2,6 @@ Feature: Check About Page
 
   Scenario: Check first Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["UICustom" "page"]
 #    Then Validate WEB Element ["event-element" "testelemen"] for event ["Page" "page"]
@@ -20,7 +19,6 @@ Feature: Check About Page
 
   Scenario: Check Second Event When Click on About
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UICustom" "Component"]
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "Component"]
@@ -37,7 +35,6 @@ Feature: Check About Page
 
   Scenario: Check Third Event When Click on About
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page"]
 #    Then Validate WEB Element ["event-element" "page-loaded"] for event ["Page" "page"]
@@ -61,7 +58,6 @@ Feature: Check About Page
 
   Scenario: Check Fourth Event When Click on About
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-element" "page-dom-loaded"] for event ["Page" "page"]
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page"]
@@ -84,7 +80,6 @@ Feature: Check About Page
 
   Scenario: Check Fifth Event When Click on About
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-element" "soft-navigation (asd)"] for event ["Page" "page"]
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page"]
@@ -101,7 +96,6 @@ Feature: Check About Page
   Scenario: Check Subscribe Events in About Page
     Then Click on ["About"]
     Then Click on ["Subscribe"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "page"]
 #    Then Validate WEB Element ["event-element" "testelemen"] for event ["Page" "page"]

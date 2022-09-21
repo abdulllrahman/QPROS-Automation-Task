@@ -8,7 +8,6 @@ Feature: Check About Page
 
   Scenario: Check first UICustom Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-element" "testelemen"] for event ["Page" "page-loaded"]
@@ -18,7 +17,6 @@ Feature: Check About Page
 
   Scenario: Check Second UICustom Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-element" "Component"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "page-loaded"]
@@ -54,7 +52,6 @@ Feature: Check About Page
 
   Scenario: Check first UICustom Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-element" "testelemen"] for event ["Page" "page-loaded"]
@@ -64,7 +61,6 @@ Feature: Check About Page
 
   Scenario: Check Second UICustom Event When Click on About
     Then Click on ["About"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-element" "Component"] for event ["Page" "page-loaded"]
@@ -73,7 +69,6 @@ Feature: Check About Page
   Scenario: Check UICustom Subscribe Events in About Page
     Then Click on ["About"]
     Then Click on ["Subscribe"]
-    Then Pause Time "1000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "UICustom"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-element" "testelemen"] for event ["Page" "page-loaded"]

@@ -125,7 +125,7 @@ public class WebMainPO extends WebPageObjectBase {
     @FindBy(xpath = "//*[@id=\"smapiBugReportAttachmentsArray\"]/div[1]/div/img")
     public WebElement Click_On_Image_Arabic;
 
-    @FindBy(xpath = "/html/body/div[1]/div/div/div[3]/div[3]/div/div[2]/div/div/div/i")
+    @FindBy(xpath = "//*[@id=\"smapiBugReportModalce54254b-72b6-409a-9802-f7b9b85bd325\"]/div/div/div/div/svg")
     public WebElement Click_On_Cancel;
 
     @FindBy(xpath = "//*[@id=\"smapiBugReportModal32d25ad7-a673-47fb-8759-b07d7d6188c3\"]/div/div/div/div/svg")
@@ -143,7 +143,7 @@ public class WebMainPO extends WebPageObjectBase {
     @FindBy(xpath = "//*[@id=\"smapi-close-icon-white\"]")
     public WebElement Click_On_Cancel_Report;
 
-    @FindBy(xpath = "//*[@id=\"smapi-close-icon-white\"]/svg")
+    @FindBy(xpath = "//*[@id=\"smapi-bug-report\"]/div[1]/button")
     public WebElement Click_On_Cancel_Report_Ara;
 
 

@@ -106,7 +106,7 @@ public class WebMainStepDefs {
                 page.ClickOnElement(page.NOT_MSISDN);
                 break;
             case "Change Storage Type":
-                page.ScrollToAnElement(page.Change_Storage_Type);
+//                page.ScrollToAnElement(page.Change_Storage_Type);
                 page.ClickOnElement(page.Change_Storage_Type);
                 break;
             case "Get Started":
@@ -134,63 +134,63 @@ public class WebMainStepDefs {
                 page.ClickOnElement(page.Add_Bug_Arabic);
                 break;
              case "Add Bug Ara Dark":
-                page.ScrollToAnElement(page.Add_Bug_Ara_Dark);
+                page.waitForVisibility(page.Add_Bug_Ara_Dark);
                 page.ClickOnElement(page.Add_Bug_Ara_Dark);
                 break;
             case "Type Description":
-                page.ScrollToAnElement(page.Type_Description);
+                page.waitForVisibility(page.Type_Description);
                 page.ClickOnElement(page.Type_Description);
                 break;
             case "Fire Event Clicked":
-                page.ScrollToAnElement(page.Fire_Event_Clicked);
+                page.waitForVisibility(page.Fire_Event_Clicked);
                 page.ClickOnElement(page.Fire_Event_Clicked);
                 break;
             case "Upload Image":
-                page.ScrollToAnElement(page.Upload_Image);
+                page.waitForVisibility(page.Upload_Image);
                 page.ClickOnElement(page.Upload_Image);
                 break;
             case "Upload Image Arabic":
-                page.ScrollToAnElement(page.Upload_Image_Arabic);
+                page.waitForVisibility(page.Upload_Image_Arabic);
                 page.ClickOnElement(page.Upload_Image_Arabic);
                 break;
               case "Upload Image Eng Dark":
-                page.ScrollToAnElement(page.Upload_Image_Eng_Dark);
+                page.waitForVisibility(page.Upload_Image_Eng_Dark);
                 page.ClickOnElement(page.Upload_Image_Eng_Dark);
                 break;  
             case "Click On Image":
-                page.ScrollToAnElement(page.Click_On_Image);
+                page.waitForVisibility(page.Click_On_Image);
                 page.ClickOnElement(page.Click_On_Image);
                 break;
             case "Click On Image Arabic":
-                page.ScrollToAnElement(page.Click_On_Image_Arabic);
+                page.waitForVisibility(page.Click_On_Image_Arabic);
                 page.ClickOnElement(page.Click_On_Image_Arabic);
                 break;
             case "Click On Cancel":
-                page.ScrollToAnElement(page.Click_On_Cancel);
+                page.waitForVisibility(page.Click_On_Cancel);
                 page.ClickOnElement(page.Click_On_Cancel);
                 break;
             case "Click On Cancel Arabic":
-                page.ScrollToAnElement(page.Click_On_Cancel_Arabic);
+                page.waitForVisibility(page.Click_On_Cancel_Arabic);
                 page.ClickOnElement(page.Click_On_Cancel_Arabic);
                 break;
              case "Click On Cancel English":
-                page.ScrollToAnElement(page.Click_On_Cancel_English);
+                page.waitForVisibility(page.Click_On_Cancel_English);
                 page.ClickOnElement(page.Click_On_Cancel_English);
                 break;
             case "Click On SubmitRequest":
-                page.ScrollToAnElement(page.Click_On_Submit_Request);
+                page.waitForVisibility(page.Click_On_Submit_Request);
                 page.ClickOnElement(page.Click_On_Submit_Request);
                 break;
             case "Click On SubmitRequest Arabic":
-                page.ScrollToAnElement(page.Click_On_Submit_Request_Arabic);
+                page.waitForVisibility(page.Click_On_Submit_Request_Arabic);
                 page.ClickOnElement(page.Click_On_Submit_Request_Arabic);
                 break;
             case "Click On Cancel Report":
-                page.ScrollToAnElement(page.Click_On_Cancel_Report);
+                page.waitForVisibility(page.Click_On_Cancel_Report);
                 page.ClickOnElement(page.Click_On_Cancel_Report);
                 break;
             case "Click On Cancel Report Arabic":
-                page.ScrollToAnElement(page.Click_On_Cancel_Report_Ara);
+                page.waitForVisibility(page.Click_On_Cancel_Report_Ara);
                 page.ClickOnElement(page.Click_On_Cancel_Report_Ara);
                 break;
             default:

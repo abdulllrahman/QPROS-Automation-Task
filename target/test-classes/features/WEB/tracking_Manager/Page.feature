@@ -26,7 +26,6 @@ Feature: Check About Page
 
   Scenario: Check Page Loaded Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "4000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-loaded"]
@@ -35,7 +34,6 @@ Feature: Check About Page
 
   Scenario: Check Page dom loaded Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-dom-loaded"]
@@ -44,7 +42,6 @@ Feature: Check About Page
 
   Scenario: Check Navigation page Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "soft-navigation (asd)"]
@@ -53,7 +50,6 @@ Feature: Check About Page
 
   Scenario: Check Stay Time Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -63,7 +59,6 @@ Feature: Check About Page
 
   Scenario: Check Page View Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -73,7 +68,6 @@ Feature: Check About Page
 
   Scenario: Check Unloaded Event while SignUp Page Loading
     Then Click on ["SignUp"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -85,7 +79,6 @@ Feature: Check About Page
 
   Scenario: Check Page Loaded Event while c Page Loading
     Then Click on ["Pricing"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-loaded"]
@@ -94,7 +87,6 @@ Feature: Check About Page
 
   Scenario: Check Page dom Loaded Event while Pricing Page Loading
     Then Click on ["Pricing"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-dom-loaded"]
@@ -103,7 +95,6 @@ Feature: Check About Page
 
   Scenario: Check Navigation page Event while Pricing Page Loading
     Then Click on ["Pricing"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "soft-navigation (asd)"]
@@ -112,7 +103,6 @@ Feature: Check About Page
 
   Scenario: Check Stay Time Event while Pricing Page Loading
     Then Click on ["Pricing"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -122,7 +112,6 @@ Feature: Check About Page
 
   Scenario: Check Page View Event while Pricing Page Loading
     Then Click on ["Pricing"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -132,7 +121,6 @@ Feature: Check About Page
 
   Scenario: Check Unloaded Event while Pricing Page Loading
     Then Click on ["Pricing"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -143,7 +131,6 @@ Feature: Check About Page
     #    ///////////////////////////////////////////////////////////////////////////////////////////////
 
   Scenario: Chec Page-load events while home page loading
-    Then Pause Time "3000" ms
     When Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-loaded"]
@@ -151,7 +138,6 @@ Feature: Check About Page
     Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["Page" "page-loaded"]
 
   Scenario: Check Page-dom-loaded event while home page loading
-    Then Pause Time "3000" ms
     When Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-dom-loaded"]
@@ -159,7 +145,6 @@ Feature: Check About Page
     Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["Page" "page-dom-loaded"]
 
   Scenario: Check Page-dom-loaded event while home page loading
-    Then Pause Time "3000" ms
     When Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "soft-navigation (asd)"]
@@ -167,7 +152,6 @@ Feature: Check About Page
     Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["Page" "soft-navigation (asd)"]
 
   Scenario: Check Stay Time Event while home Page Loading
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -176,7 +160,6 @@ Feature: Check About Page
     Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["Page" "Stay Time"]
 
   Scenario: Check Page View Event while home Page Loading
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -185,7 +168,6 @@ Feature: Check About Page
     Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["Page" "Page View"]
 
   Scenario: Check Unloaded Event while home Page Loading
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -197,8 +179,7 @@ Feature: Check About Page
 
 #  Scenario: Check Soft Navigation page event when clicking on "MSISDN" button
 #    When Click on ["Third MSISDN button"]
-#    Then Pause Time "3000" ms
-#    And Capture WEB Events
+##    And Capture WEB Events
 ##    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-description"] for event ["Page" "page-loaded"]
 ##    Then Validate WEB Element ["event-element" "soft-navigation"] for event ["Page" "page-loaded"]
@@ -206,8 +187,7 @@ Feature: Check About Page
 #
 #  Scenario: Check Soft Navigation page event when clicking on "NOT_MSISDN" button
 #    When Click on ["the fourth MSISDN button"]
-#    Then Pause Time "3000" ms
-#    And Capture WEB Events
+##    And Capture WEB Events
 ##    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
 #    Then Validate WEB Element ["event-description"] for event ["Page" "page-loaded"]
 ##    Then Validate WEB Element ["event-element" "soft-navigation"] for event ["Page" "page-loaded"]
@@ -217,7 +197,6 @@ Feature: Check About Page
 
   Scenario: Check Third page Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-loaded"]
@@ -226,7 +205,6 @@ Feature: Check About Page
 
   Scenario: Check Fourth page Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-dom-loaded"]
@@ -235,7 +213,6 @@ Feature: Check About Page
 
   Scenario: Check Fifth page Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "soft-navigation (asd)"]
@@ -244,7 +221,6 @@ Feature: Check About Page
 
   Scenario: Check Stay Time Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -254,7 +230,6 @@ Feature: Check About Page
 
   Scenario: Check Page View Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -264,7 +239,6 @@ Feature: Check About Page
 
   Scenario: Check Unloaded Event while About Page Loading
     Then Click on ["About"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -276,7 +250,6 @@ Feature: Check About Page
 
   Scenario: Check Page Loaded Event while Login Page Loading
     Then Click on ["Login"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-loaded"]
@@ -285,7 +258,6 @@ Feature: Check About Page
 
   Scenario: Check Page dom loaded Event while Login Page Loading
     Then Click on ["Login"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "page-dom-loaded"]
@@ -294,7 +266,6 @@ Feature: Check About Page
 
   Scenario: Check Navigation page Event while Login Page Loading
     Then Click on ["Login"]
-    Then Pause Time "3000" ms
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["Page" "soft-navigation (asd)"]
@@ -303,7 +274,6 @@ Feature: Check About Page
 
   Scenario: Check Stay Time Event while Login Page Loading
     Then Click on ["Login"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -313,7 +283,6 @@ Feature: Check About Page
 
   Scenario: Check Page View Event while Login Page Loading
     Then Click on ["Login"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]
@@ -323,7 +292,6 @@ Feature: Check About Page
 
   Scenario: Check Unloaded Event while Login Page Loading
     Then Click on ["Login"]
-    Then Pause Time "3000" ms
     Then Open new Tab and close
     Then Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page-loaded"]

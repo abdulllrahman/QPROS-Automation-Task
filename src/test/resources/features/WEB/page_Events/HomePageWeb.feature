@@ -1,7 +1,6 @@
 Feature: HomePageWEB
 
   Background: Open Demo WEBsite
-    Then Pause Time "1000" ms
 
   Scenario: Compare Page-load events1
     When Capture WEB Events
@@ -101,7 +100,6 @@ Feature: HomePageWEB
 
   Scenario: Check UI Control event when clicking on "Change Storage Type"
     When Click on ["Change Storage Type"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page"]
 #    Then Validate WEB Element ["event-element" "soft-navigation (asd)"] for event ["Page" "page"]
@@ -127,7 +125,6 @@ Feature: HomePageWEB
 
   Scenario: Check UI Control event when clicking on "MSISDN - 1234567890" button
     When Click on ["First MSISDN button"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
     Then Validate WEB Element ["event-description" "MASKEDMSISDN0"] for event ["UIControl" "BUTTON - submit"]
 #    Then Validate WEB Element ["event-type" "UIControl"] for event ["Page" "page"]
@@ -152,7 +149,6 @@ Feature: HomePageWEB
 
   Scenario: Check UI Control event when clicking on "NOT MSISDN 12345NOT6789" button
     When Click on ["Second MSISDN button"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
     Then Validate WEB Element ["event-description" "NOT MSISDN - 12345NOT67890"] for event ["UIControl" "BUTTON - submit"]
 ##    Then Validate WEB Element ["event-type" "UIControl"] for event ["Page" "page"]
@@ -177,7 +173,6 @@ Feature: HomePageWEB
 
   Scenario: Check UI Control event when clicking on "MSISDN" button
     When Click on ["Third MSISDN button"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
     Then Validate WEB Element ["event-description" "MSISDN (URL: http://localhost:3000/#/MASKEDMSISDN0)"] for event ["UIControl" "A - a"]
 ##    Then Validate WEB Element ["event-type" "UIControl"] for event ["Page" "page"]
@@ -202,7 +197,6 @@ Feature: HomePageWEB
 
   Scenario: Check Soft Navigation event when clicking on "MSISDN" button
     When Click on ["Third MSISDN button"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
     Then Validate WEB Element ["event-description" "NA"] for event ["Page" "soft-navigation"]
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page"]
@@ -227,7 +221,6 @@ Feature: HomePageWEB
 
   Scenario: Check UI Control event when clicking on "NOT MSISDN" button
     When Click on ["the fourth MSISDN button"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
     Then Validate WEB Element ["event-description" "NOT MSISDN (URL: http://localhost:3000/#/12345NOT67890)"] for event ["UIControl" "A - a"]
 ##    Then Validate WEB Element ["event-type" "UIControl"] for event ["Page" "page"]
@@ -252,7 +245,6 @@ Feature: HomePageWEB
 
   Scenario: Check Soft Navigation event when clicking on "NOT_MSISDN" button
     When Click on ["the fourth MSISDN button"]
-    Then Pause Time "1000" ms
     And Capture WEB Events
     Then Validate WEB Element ["event-description" "NA"] for event ["Page" "soft-navigation"]
 #    Then Validate WEB Element ["event-type" "Page"] for event ["Page" "page"]
@@ -277,8 +269,7 @@ Feature: HomePageWEB
 
 #  Scenario: Check UI Component event when clicking on "Get Started"
 #    When Click on ["Get Started"]
-#    Then Pause Time "1000" ms
-#    And Capture WEB Events
+##    And Capture WEB Events
 #    Then Validate WEB Element ["event-description" "Get Started (URL: http://localhost:3000/login.html)"] for event ["Page" "page"]
 ##    Then Validate WEB Element ["event-type" "UIControl"] for event ["Page" "page"]
 ##    Then Validate WEB Element ["event-element" "A - a"] for event ["Page" "page"]
