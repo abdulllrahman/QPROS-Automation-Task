@@ -43,8 +43,8 @@ Feature: Check Bug Report Page
     Then Click on ["Click On Cancel Report"]
     Then Capture WEB Events
 
-    Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "DIV - div"]
-    Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["UIControl" "DIV - div"]
+    Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "BUTTON - submit"]
+    Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["UIControl" "BUTTON - submit"]
 
 
 
@@ -66,14 +66,14 @@ Feature: Check Bug Report Page
     Then Validate WEB Element ["seclib-client-version" "SMAPI_Presence"] for event ["UIControl" "BUTTON - submit"]
 
 
-
-  Scenario: Check UIControl Event When Clicked on Cancel Image Darkmode
-    Then Click on ["Add Bug Eng Dark"]
-    Then Click on ["Click On Image"]
-    Then Click on ["Click On Cancel English"]
-    Then Capture WEB Events
-    Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/#/12345NOT67890"] for event ["UIControl" "I - i"]
-    Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "I - i"]
+#///////////////////////////////////////////////////////////////////////////////////////
+#  Scenario: Check UIControl Event When Clicked on Cancel Image Darkmode
+#    Then Click on ["Add Bug Eng Dark"]
+#    Then Click on ["Click On Image"]
+#    Then Click on ["Click On Cancel English"]
+#    Then Capture WEB Events
+#    Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/#/12345NOT67890"] for event ["UIControl" "I - i"]
+#    Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "I - i"]
 
 
 
@@ -93,8 +93,8 @@ Feature: Check Bug Report Page
     Then Click on ["Add Bug Eng Dark"]
     Then Click on ["Click On Cancel Report"]
     Then Capture WEB Events
-    Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "DIV - div"]
-    Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["UIControl" "DIV - div"]
+    Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "BUTTON - submit"]
+    Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["UIControl" "BUTTON - submit"]
 
 
 

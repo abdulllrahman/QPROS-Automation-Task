@@ -25,7 +25,7 @@ Feature: web demo
     Then Click on ["Change Storage Type"]
     Then Click on ["Change Storage Type"]
     Then Capture WEB Events
-    Then Check WEB Events Count equal [4]
+    Then Check WEB Events Count equal [2]
 
   Scenario: Check Flushing Events when Verbose OFF then ON
     Then Send WEB JS "sec.setVerbose(false)"
