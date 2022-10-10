@@ -76,3 +76,4 @@ Feature: Check App Rate Page
     Then Capture WEB Events
     Then Validate WEB Element ["event-description" "SMAPI_Presence"] for event ["UIControl" "LI - li"]
     Then Validate WEB Element ["page-name" "BootsApp | Home-http://localhost:3000/"] for event ["UIControl" "LI - li"]
+   
