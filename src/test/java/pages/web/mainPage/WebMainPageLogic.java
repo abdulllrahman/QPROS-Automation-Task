@@ -51,6 +51,10 @@ public class WebMainPageLogic extends WebMainPageAbstract {
     public void openCloseNewTab() {
         openAndCloseNewTab();
     }
+    @Override
+    public void openNewLink() {
+    openANewLink();
+    }
 
     @Override
     public boolean validateEventElement(String key, String value, String eventType, String eventElement) {
