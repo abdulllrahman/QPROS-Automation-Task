@@ -146,6 +146,35 @@ public class WebMainPO extends WebPageObjectBase {
     @FindBy(xpath = "//*[@id=\"smapi-bug-report\"]/div[1]/button")
     public WebElement Click_On_Cancel_Report_Ara;
 
+    @FindBy(xpath = "//*[@id=\"smapi-bad\"]")
+    public WebElement Click_On_1Rate_Stars;
+
+
+    @FindBy(xpath = "//*[@id=\"smapi-poor\"]")
+    public WebElement Click_On_2Rate_Stars;
+
+    @FindBy(xpath = "//*[@id=\"smapi-ok\"]")
+    public WebElement Click_On_3Rate_Stars;
+
+
+   // @FindBy(xpath = "//*[@id=\"smapi-good\"]/svg/path")
+    @FindBy(xpath = "//*[@id=\"smapi-good\"]")
+    public WebElement Click_On_4Rate_Stars;
+
+
+    @FindBy(xpath = " //*[@id=\"smapi-excellent\"]")
+    public WebElement Click_On_5Rate_Stars;
+
+    @FindBy(xpath = "//*[@id=\"smapi-modal-submitBtn\"]")
+    public WebElement Submit_Rate;
+
+    @FindBy(xpath = "//*[@id=\"smapi-modal-laterBtn\"]")
+    public WebElement NotNow_Rate;
+
+    @FindBy(xpath = "/html/body/div[7]/div/div[1]/div[1]/button/div/svg")
+    public WebElement Cancel_Rate;
+
+//" //*[@id=\"smapi-close-icon\"]/svg"
 
 
 
