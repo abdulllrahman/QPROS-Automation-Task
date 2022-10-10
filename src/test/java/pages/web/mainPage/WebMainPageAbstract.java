@@ -22,6 +22,8 @@ public abstract class WebMainPageAbstract extends WebMainPO {
     public abstract boolean CheckKeyPresence(String key, int eventIndex);
 
     public abstract void openCloseNewTab();
+    
+    public abstract void openNewLink();
 
     public abstract boolean validateEventElement(String key, String value, String eventType, String eventElement);
 }
