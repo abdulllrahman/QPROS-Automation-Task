@@ -193,6 +193,38 @@ public class WebMainStepDefs {
                 page.waitForVisibility(page.Click_On_Cancel_Report_Ara);
                 page.ClickOnElement(page.Click_On_Cancel_Report_Ara);
                 break;
+            case "Click On 1Rate Stars":
+                 page.ScrollToAnElement(page.Click_On_1Rate_Stars);
+                 page.ClickOnElement(page.Click_On_1Rate_Stars);
+                break;
+             case "Click On 2Rate Stars":
+                page.ScrollToAnElement(page.Click_On_2Rate_Stars);
+                page.ClickOnElement(page.Click_On_2Rate_Stars);
+                 break;
+            case "Click On 3Rate Stars":
+                page.ScrollToAnElement(page.Click_On_3Rate_Stars);
+                page.ClickOnElement(page.Click_On_3Rate_Stars);
+                break;
+            case "Click On 4Rate Stars":
+                page.ScrollToAnElement(page.Click_On_4Rate_Stars);
+                page.ClickOnElement(page.Click_On_4Rate_Stars);
+               break;
+            case "Click On 5Rate Stars":
+                page.ScrollToAnElement(page.Click_On_5Rate_Stars);
+                page.ClickOnElement(page.Click_On_5Rate_Stars);
+               break;
+            case "Submit Rate":
+                page.ScrollToAnElement(page.Submit_Rate);
+                page.ClickOnElement(page.Submit_Rate);
+               break;
+            case "NotNow Rate":
+                page.ScrollToAnElement(page.NotNow_Rate);
+                page.ClickOnElement(page.NotNow_Rate);
+              break;
+            case "Cancel Rate":
+                page.ScrollToAnElement(page.Cancel_Rate);
+                page.ClickOnElement(page.Cancel_Rate);
+              break;
             default:
         }
     }
@@ -201,6 +233,10 @@ public class WebMainStepDefs {
     public void openNewTabAndClose() {
         page.openCloseNewTab();
     }
+    @Then("Open New Link")
+    public void openNewLink() {
+        page.openNewLink();
+     }
     
     @Then("Type Element [{string}]")
     public void TypeElement(String arg0) {
