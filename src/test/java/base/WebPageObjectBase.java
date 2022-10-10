@@ -54,6 +54,15 @@ public abstract class WebPageObjectBase {
         driver.switchTo().window(base);
     }
 
+    public void openANewLink() {
+    String base = "http://localhost:3000/";
+            //driver.getWindowHandle();
+    ((JavascriptExecutor)driver).executeScript("window.open()");
+    driver.switchTo().window(base);
+    //driver.get("http://localhost:3000/");
+    }
+
+
     public boolean checkEventElement(String key, String value, String eventType, String eventElement) {
         return LogCompare.compareEvent(logCapture.getLogs(), eventType, eventElement, key, value);
     }
