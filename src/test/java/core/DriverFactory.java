@@ -34,18 +34,6 @@ public class DriverFactory {
         this.capabilities = new DesiredCapabilities(map);
     }
 
-    MobileDriver createDriver() {
-        String platform = config.getPlatform().toUpperCase();
-        switch (platform) {
-            case "ANDROID":
-                return new AndroidDriver<MobileElement>(url, capabilities);
-            case "IOS":
-                return new IOSDriver<MobileElement>(url, capabilities);
-            default:
-                throw new IllegalArgumentException(
-                        String.format("Driver Factory type not implemented: [%s]", platform));
-        }
-    }
 
     WebDriver createWebDriver() {
         String browser = config.getBrowser().toUpperCase();

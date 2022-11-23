@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         monochrome = true,
 
-        features = {"src/test/resources/features/WEB"},
+        features = {"src/test/resources/features"},
 
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         glue = {"stepdefs", "utils", "pages", "core", "base"}
